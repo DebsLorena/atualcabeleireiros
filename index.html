@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atual Cabeleireiros</title>
+    <meta name="title" content="Atual Cabeleireiros">
+    <meta name="description"
+        content="A Atual Cabeleireiros, está localizada em Vila Nova de Santo André, Portugal, com mais de 40 anos de experiências, oferecemos diversos serviços, como cortes de cabelo, coloração, penteados, alisamentos, hidratação, madeixas, luzes, além de uma ampla gama de produtos.">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/svg+xml">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./mediaquerie.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Rubik:wght@300,400;700&display=swap"
+        rel="stylesheet">
+    <link rel="preload" as="image" href="./assets/images/capa.jpg">
+    <!--especifica o tipo de conteudo está sendo exibido no link-->
+
+</head>
+
+<body id="top">
+    <header class="header">
+        <div class="header-top">
+            <div class="container" style="background-color: var(--indian-green);">
+                <ul class="header-top-list">
+                    <!--Ul lista nao ordenada, com varios li's, cada item é uma li. icones biblioteca importada no final do corpo, usando os links disponiveis no site.-->
+                    <li class="header-top-item">
+                        <ion-icon name="logo-whatsapp" aria-hidden="true"></ion-icon>
+                        <p class="item-title">Agende seu horário:</p>
+                        <a class="item-link" href="https://api.whatsapp.com/send?phone=351963125551" target="_blank">
+                            963 125 551</a>
+                    </li>
+                    <li class="header-top-item">
+                        <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+                        <!--Adicionar aria-hidden="true" a um elemento remove esse elemento e todos os seus filhos da árvore de acessibilidade-->
+                        <p class="item-title">Endereço: </p>
+                        <a class="item-text" href="https://goo.gl/maps/6MPxZnB2nYxonK3UA" target="_blank">Rua da Maresia, 46, Vila Nova de Santo André, Portugal </a>
+                    </li>
+                    <li>
+                        <ul class="social-list">
+                            <!--uma ul, dentro de outra ul.-->
+                            <li>
+                                <a href="#" class="social-link">
+                                    <ion-icon name="logo-facebook"></ion-icon>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="social-link">
+                                    <ion-icon name="logo-instagram"></ion-icon>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://api.whatsapp.com/send?phone=351963125551" target="_blank" class="social-link">
+                                    <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="header-bottom" data-header>
+            <!--data header Cabeçalho de dados é um termo amplo para informações preliminares que ajudam a preparar um dispositivo final para informações adicionais e mais específicas.-->
+            <div class="container">
+                <a href="#top" class="logo">
+                    Atual
+                    <span class="span">Cabeleireiros</span>
+                </a>
+                <nav class="navbar container" data-navbar>
+                    <!-- O atributo data-* é usado para armazenar dados personalizados privados para a página ou aplicativo -->
+                    <ul class="navbar-list">
+                        <li class="navbar-item">
+                            <a href="#home" class="navbar-link" data-nav-link>Início</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="#services" class="navbar-link" data-nav-link>Serviços</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="#produtos" class="navbar-link" data-nav-link>produtos</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="#contatos" class="navbar-link" data-nav-link>Contato</a>
+                        </li>
+                    </ul>
+                </nav>
+                <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+                    <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+                </button>
+                <a href="https://api.whatsapp.com/send?phone=351963125551" target="_blank" class="btn has-before">
+                    <span class="span">Agendamento</span>
+
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <article>
+            <!--hero-->
+            <section class="section hero has-before has-bg-image" id="home" aria-label="home"
+                style="background-image: url('./assets/images/capa.jpg')">
+                <div class="container">
+                    <h1 class="h1 hero-title">Cindy Oliveira</h1>
+                    <p class="hero-text">
+                        Com mais de 40 anos de experiência, me sinto renovada e preparada para te fazer mais bela do que
+                        nunca! Aqui é o lugar para você se sentir bem! Ser você e ficar ainda mais incrível!
+                    </p>
+                    <a href="https://api.whatsapp.com/send?phone=351963125551" class="btn has-before" target="_blank">
+                        <span class="span">Agende o seu horário</span>
+                        <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                    </a>
+                </div>
+            </section>
+            <!--service-->
+            <section class="section service" id="services" aria-label="services">
+                <div class="container">
+                    <h2 class="h2 section-title text-center">Conheça os nossos serviços</h2>
+                    <p class="section-text text-center">
+                        Sentir-se confiante e bem com você mesma é a nossa prioridade!
+                    </p>
+                    <ul class="grid-list">
+                        <li>
+                            <div class="service-card">
+                                <div class="card-icon">
+                                    <img src="./assets/images/cortes.png" width="70" height="70" alt="corte de cabelo">
+                                </div>
+                                <h3 class="h3">
+                                    <a href="#" id="cortes" class="card-title">Cortes</a>
+                                </h3>
+                                <p class="card-text">
+                                    Um bom corte de cabelo é essencial para que o rosto tenha harmonia. Além de acentuar
+                                    a beleza e revelar um pouco da nossa personalidade.
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="service-card">
+                                <div class="card-icon">
+                                    <img src="./assets/images/hidratacao.png" width="70" height="70" alt="hidratação">
+                                </div>
+                                <h3 class="h3">
+                                    <a href="#" id="hidratacao" class="card-title">Hidratação</a>
+                                </h3>
+                                <p class="card-text">
+                                    A hidratação capilar através de máscaras hidratante repõe os nutrientes e a água dos
+                                    fios, trazendo de volta o brilho e vida ao seu cabelo.
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="service-card">
+                                <div class="card-icon">
+                                    <img src="./assets/images/madeixas.png" width="70" height="70" alt="madeixas">
+                                </div>
+                                <h3 class="h3">
+                                    <a href="#" id="madeixas" class="card-title">Madeixas</a>
+                                </h3>
+                                <p class="card-text">
+                                    As madeixas são mechas finas espalhadas pelo cabelo, em diversos tons diferentes.
+                                    Podem trazer luminosidade ao rosto, realçando a sua beleza de forma natural.
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="service-card">
+                                <div class="card-icon">
+                                    <img src="./assets/images/hair-color.png" width="70" height="70" alt="coloração">
+                                </div>
+                                <h3 class="h3">
+                                    <a href="#" id="coloracao" class="card-title">Coloração</a>
+                                </h3>
+                                <p class="card-text">
+                                    Mudar a cor dos seus fios de forma hidratada, com as tecnologias atuais é possivel
+                                    realizar diversos tons em suas madeixas sem que perca o brilho natural.
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="service-card">
+                                <div class="card-icon">
+                                    <img src="./assets/images/tranca.png" width="70" height="70" alt="penteados">
+                                </div>
+                                <h3 class="h3">
+                                    <a href="#" id="penteados" class="card-title">Penteados</a>
+                                </h3>
+                                <p class="card-text">
+                                    Penteados são artes, criados para realçar a sua beleza, solto, preso, tranças,
+                                    trabalho para harmonizar o seu cabelo ao seu rosto e revelar a sua beleza.
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="service-card">
+                                <div class="card-icon">
+                                    <img src="./assets/images/manicure.png" width="70" height="70" alt="penteados">
+                                </div>
+                                <h3 class="h3">
+                                    <a href="#" id="manicure" class="card-title">Manicure</a>
+                                </h3>
+                                <p class="card-text">
+                                    O cuidado com os nossos pés e mãos fazem parte do nosso dia a dia, sempre com
+                                    conforto, higiene e uma vasta gama de cores, para alegrar um pouco mais.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+            </section>
+            <!--produtos-->
+            <section class="section gallery" id="produtos" aria-label="photo gallery">
+                <div class="container">
+                    <div class="title-wrapper">
+                        <div>
+                            <h2 class="h2 section-title">Produtos</h2>
+                            <p class="section-text">
+                                As melhores marcas a distância de um click
+                            </p>
+                        </div>
+                        <a href="#" class="btn has-before">
+                            <span class="span">Encomende</span>
+                            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                        </a>
+                    </div>
+                    <ul class="grid-list">
+                        <li>
+                            <div class="gallery-card">
+                                <figure class="card-banner img-holder" style="--width: 422; --height: 550;">
+                                    <img src="./assets/images/ampolas-salerme.jpg" width="422" height="550" loading="lazy"
+                                        alt="Hair Cutting" class="img-cover">
+                                </figure>
+                                <div class="card-content">
+                                    <h3 class="h3 card-title">Biokera</h3>
+                                    <p class="card-text">Tratamento anti-queda</p>
+                                    <a href="https://api.whatsapp.com/send?phone=351963125551" target="_blank" class="card-btn" aria-label="Read more">
+                                        <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="gallery-card">
+                                <figure class="card-banner img-holder" style="--width: 422; --height: 550;">
+                                    <img src="./assets/images/alizze - defrizzer.jfif" width="422" height="550" loading="lazy"
+                                        alt="Hair Cutting" class="img-cover">
+                                </figure>
+                                <div class="card-content">
+                                    <h3 class="h3 card-title">Alizze</h3>
+                                    <p class="card-text">Shampoo</p>
+                                    <a href="https://api.whatsapp.com/send?phone=351963125551" target="_blank" class="card-btn" aria-label="Read more">
+                                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="gallery-card">
+                                <figure class="card-banner img-holder" style="--width: 422; --height: 550;">
+                                    <img src="./assets/images/mascara-salerme.jpg" width="422" height="550" loading="lazy"
+                                        alt="Hair Cutting" class="img-cover">
+                                </figure>
+                                <div class="card-content">
+                                    <h3 class="h3 card-title">Salerm</h3>
+                                    <p class="card-text">Mascára de hidratação</p>
+                                    <a href="https://api.whatsapp.com/send?phone=351963125551" target="_blank" class="card-btn" aria-label="Read more">
+                                        <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="gallery-card">
+                                <figure class="card-banner img-holder" style="--width: 422; --height: 550;">
+                                    <img src="./assets/images/shampoo-salerme.jpg" width="422" height="550" loading="lazy"
+                                        alt="Hair Cutting" class="img-cover">
+                                </figure>
+                                <div class="card-content">
+                                    <h3 class="h3 card-title">Biokera</h3>
+                                    <p class="card-text">Shampoo</p>
+                                    <a href="https://api.whatsapp.com/send?phone=351963125551" target="_blank" class="card-btn" aria-label="Read more">
+                                        <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="gallery-card">
+                                <figure class="card-banner img-holder" style="--width: 422; --height: 550;">
+                                    <img src="./assets/images/shampoo21-salerme.jpg" width="422" height="550" loading="lazy"
+                                        alt="Hair Cutting" class="img-cover">
+                                </figure>
+                                <div class="card-content">
+                                    <h3 class="h3 card-title">Salerm</h3>
+                                    <p class="card-text">Shampoo</p>
+                                    <a href="https://api.whatsapp.com/send?phone=351963125551" target="_blank" class="card-btn" aria-label="Read more">
+                                        <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="gallery-card">
+                                <figure class="card-banner img-holder" style="--width: 422; --height: 550;">
+                                    <img src="./assets/images/riflessi 3 in 1.jpg" width="422" height="550" loading="lazy"
+                                        alt="Hair Cutting" class="img-cover">
+                                </figure>
+                                <div class="card-content">
+                                    <h3 class="h3 card-title">Riglessi</h3>
+                                    <p class="card-text">3 in 1</p>
+                                    <a href="https://api.whatsapp.com/send?phone=351963125551" target="_blank" class="card-btn" aria-label="Read more">
+                                        <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </article>
+    </main>
+    <!--footer-->
+    <footer class="footer has-bg-image" style="background-image: url('./assets/images/footer-bg.png')">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-link-box">
+                    <ul class="footer-list">
+                        <li>
+                            <p class="footer-list-title">Nossos Links</p>
+                        </li>
+                        <li>
+                            <a href="#top" class="footer-link has-before">Início</a>
+                        </li>
+                        <li>
+                            <a href="#services" class="footer-link has-before">Serviços</a>
+                        </li>
+                        <li>
+                            <a href="#produtos" class="footer-link has-before">Produtos</a>
+                        </li>
+                        <li>
+                            <a href="#contato" class="footer-link has-before">Contato</a>
+                        </li>
+                    </ul>
+                    <ul class="footer-list">
+                        <li>
+                            <p class="footer-list-title">Serviços</p>
+                        </li>
+                        <li>
+                            <a href="#cortes" class="footer-link has-before">Cortes</a>
+                        </li>
+                        <li>
+                            <a href="#hidratacao" class="footer-link has-before">Hidratação</a>
+                        </li>
+                        <li>
+                            <a href="#madeixas" class="footer-link has-before">Madeixas</a>
+                        </li>
+                        <li>
+                            <a href="#coloracao" class="footer-link has-before">Coloração</a>
+                        </li>
+                        <li>
+                            <a href="#penteados" class="footer-link has-before">Penteados</a>
+                        </li>
+                        <li>
+                            <a href="#manicure" class="footer-link has-before">Manicure</a>
+                        </li>
+                    </ul>
+                    <ul class="footer-list">
+                        <li>
+                            <p class="footer-list-title" id="contatos">Contato</p>
+                        </li>
+                        <li class="footer-list-item">
+                            <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+                            <address class="contact-link">
+                                <a href="https://goo.gl/maps/6MPxZnB2nYxonK3UA" target="_blank">Rua da Maresia, 46, Vila Nova de Santo André, Portugal</a>
+                                
+                            </address>
+                        </li>
+                        <li class="footer-list-item">
+                            <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+                            <a class="item-link" href="https://api.whatsapp.com/send?phone=351963125551" target="_blank">
+                                963 125 551</a>
+                        </li>
+                        <li class="footer-list-item">
+                            <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+                            <span class="contact-link">Segunda á Sábado, atendimentos com agendamento.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright">
+                    2022 <a href="https://github.com/DebsLorena?tab=repositories" target="_blank" class="copyright-link">By Debs Lorena
+                </p>
+            </div>
+        </div>
+    </footer>
+    <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+        <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+    </a>
+    <script src="index.js" defer></script>
+    <!--O atributo defer diz ao navegador para executar o script apenas quando a análise do HTML estiver finalizada.-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
