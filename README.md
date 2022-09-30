@@ -10,6 +10,7 @@
 
 <div align="center">
     <img src="./Print.PNG" alt="daily.dev" width="550">
+    <img src="./print1.PNG" alt="daily.dev" width="550">
     <h6>Feito com ❤️ by DebsLorena</h6>
     <a href="https://www.linkedin.com/in/loredebs/"><strong>Linkedin</strong></a><br>
     <a href="https://www.instagram.com/debslorena/"><strong>Instagram</strong></a>
